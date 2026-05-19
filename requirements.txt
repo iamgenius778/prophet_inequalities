@@ -2,4 +2,5 @@ streamlit>=1.33
 pandas
 numpy
 yfinance>=0.2.40
+akshare
 plotly>=5.20

@@ -59,7 +59,7 @@ with st.sidebar:
 
 
 # ── Data fetching (cached 5 min) ─────────────────────────────────────────────
-@st.cache_data(ttl=300, show_spinner=False)
+@st.cache_data(ttl=900, show_spinner=False)
 def _fetch(ticker: str) -> object:
     return fetch(ticker)
 
