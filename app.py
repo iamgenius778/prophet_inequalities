@@ -131,11 +131,11 @@ elif "levels" in st.session_state:
 
     # ── K-line chart ──────────────────────────────────────────────────────
     fig = make_candle_chart(data, levels, ticker=ticker_disp)
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width="stretch")
 
     # ── Detail table (collapsible) ────────────────────────────────────────
     with st.expander("計算明細"):
-        st.dataframe(levels_to_table(levels), use_container_width=True)
+        st.table(levels_to_table(levels))
 
 else:
     # ── Welcome screen ────────────────────────────────────────────────────
