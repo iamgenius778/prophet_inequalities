@@ -55,7 +55,7 @@ with st.sidebar:
 
     query = st.button("查詢", type="primary", use_container_width=True)
     st.divider()
-    st.markdown("[☕ 支持這個工具](https://ko-fi.com/yourname)")
+    st.markdown("[☕ 支持這個工具](https://ko-fi.com/pangju)")
 
 
 # ── Data fetching (cached 5 min) ─────────────────────────────────────────────

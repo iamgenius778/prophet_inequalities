@@ -35,4 +35,4 @@ streamlit run app.py
 
 ## Support
 
-If this tool helps you: [ko-fi.com/yourname](https://ko-fi.com/yourname)
+If this tool helps you: [ko-fi.com/pangju](https://ko-fi.com/pangju)
